@@ -1,0 +1,84 @@
+:root{
+--primary: #535353;
+--secondary: #c6c7c6;
+--success: #a5cf42;
+--warning: #efa600;
+--thirdary: #efefef;
+}
+.border{
+    border: solid 2px black;
+}
+body{
+    font-family:'Conv_Courier New Cyr Bold',Sans-Serif;
+}
+.bg-primary{
+background: var(--primary) !important;
+}
+.bg-secondary{
+    background: var(--secondary) !important;
+    }
+.bg-thirdary{
+    background: var(--thirdary) !important;
+    }
+.bg-warning{
+    background: var(--warning) !important;
+    }
+img{
+max-width: 100%;
+}
+.div-shades::after{
+    content: url(shades.gif);
+    display: inline-block;
+    top: 5px;
+    margin: 0px 10px 0px 10px;
+    vertical-align: top;
+}
+
+.div-pipe::after{
+    content: " |";
+    display: inline-block;
+    margin: 0px 3px;
+}
+.whitePipe::after{
+    color: white;
+}
+.blackPipe::after{
+    color: black;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 0rem;
+    text-decoration: underline;
+}
+
+.line{
+    height: 3px;
+    width: 100%;
+}
+.contentWidth{
+    max-width: 80%;
+}
+.rounded-pill-top{
+    border-radius: 50em 50em 0em 0em;
+}
+.footer {
+    position: absolute;
+    margin: auto;
+    margin-top: 1em;
+    /*bottom: 0;*/
+    width: 100%;
+    /*height: 60px;*/
+    /*line-height: 60px;*/
+}
+.height{
+    height: 100%;
+}
+@font-face {
+	font-family: 'Conv_Courier New Cyr Bold';
+	src: url('fonts/Courier New Cyr Bold.eot');
+	src: local('☺'), url('fonts/Courier New Cyr Bold.woff') format('woff'), url('fonts/Courier New Cyr Bold.ttf') format('truetype'), url('fonts/Courier New Cyr Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
